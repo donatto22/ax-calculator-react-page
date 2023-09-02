@@ -23,11 +23,11 @@ const App = () => {
                 <Image src='./logo.png' alt='logo ax calculator' />
             </Box>
 
-            <Box fontSize='34px' data-aos="fade-up" data-aos-duration="1200">
+            <Box fontSize='34px' data-aos="fade-up" data-aos-duration="1300">
                 4x Calculator
             </Box>
 
-            <Box data-aos="fade-up" data-aos-duration="1400">
+            <Box data-aos="fade-up" data-aos-duration="1600">
                 <Box transform='scale(1.2)'>
                     <GitHubButton href="https://github.com/sponsors/donatto22" data-color-scheme="no-preference: light; light: light; dark: dark;" data-icon="octicon-heart" data-size="large" aria-label="Sponsor @donatto22 on GitHub">Sponsor</GitHubButton>
                 </Box>
