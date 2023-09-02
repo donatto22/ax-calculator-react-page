@@ -1,10 +1,20 @@
-function App() {
+import { Box, Image } from '@chakra-ui/react'
+import Headers from './components/Header'
+
+const App = () => {
     return (
         <>
-            <h1>4x calculator</h1>
-            <p>
-                hola
-            </p>
+        <Headers />
+
+        <Box w='100vw' height='100vh' display='flex' flexDirection='column' alignItems='center' justifyContent='center'>
+            <Box w='180px' mb='2em'>
+                <Image src='./logo.png' alt='logo ax calculator' />
+            </Box>
+
+            <Box fontSize='34px'>
+                4x Calculator
+            </Box>
+        </Box>
         </>
     )
 }

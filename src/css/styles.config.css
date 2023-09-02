@@ -94,7 +94,7 @@
 
 body {
     background-color: var(--body-bg-color);
-    color: var(--default-white);
+    color: var(--default-white) !important;
     font-family: 'Montserrat';
 }
 
