@@ -1,0 +1,31 @@
+.settingsButton {
+    padding: 8px 10px;
+    margin: 0;
+    border: 0;
+    border-radius: 4px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.settingsButton:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.settingsButton:hover {
+    background-color: var(--default-white-transparent-menu);
+}
+
+/* estilos para el menu de la izquierda */
+.leftSideMenu {
+    min-width: 160px;
+    top: 4em;
+    position: fixed;
+    border-radius: 10px;
+    margin-left: -220px;
+    transition: margin-left .2s;
+    background-color: var(--default-white-transparent-menu);
+}
+
+.activeMenu {
+    margin-left: 10px !important;
+}

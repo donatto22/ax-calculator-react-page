@@ -1,5 +1,5 @@
 import { Box, Image } from '@chakra-ui/react'
-import Headers from './components/Header'
+import Headers from './components/Header/Header'
 
 import { useEffect } from 'react'
 
